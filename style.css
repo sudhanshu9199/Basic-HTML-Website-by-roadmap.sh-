@@ -1,0 +1,95 @@
+/*font-family: "Playwrite IE Guides", serif;*/
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    margin: 2% 3.3%;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    gap: 10px;
+}
+.square{
+    border: 2px solid black;
+    padding: 12px;
+    background: #000;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+}
+.head-text{
+    margin: 8% 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.head-text h2{
+    font-family: "Playwrite IE Guides", serif;
+    font-size: 3.5vw;
+    margin-bottom: 10px;
+}
+.head-text p{
+    font-family: sans-serif;
+    color: grey;
+    font-size: 1.6vw;
+}
+.sec-box{
+    border-right: none;
+    border: 2px solid black;;
+    border-radius: 5px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+.sec-box-1{
+    border: none;
+    border-right: 2px solid black;
+    padding: 10px;
+}
+.edu{
+    border: none;
+}
+.sec-box-1 h3{
+    font-family: "Cedarville Cursive", serif;
+    margin-bottom: 15px;
+}
+.sec-box-1-1{
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+
+}
+.sec-box-1 p{
+    margin-bottom: 8px;
+}
+.reviews{
+    margin: 0 3.3%;
+}
+.reviews h2{
+    font-family: "Cedarville Cursive", serif;
+    margin: 20px 0;
+}
+.prof-name{
+    color: grey;
+    margin: 10px 0;
+}
+.review-box{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.review1{
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 25px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 55px 0;
+}
